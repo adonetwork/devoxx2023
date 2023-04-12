@@ -4,6 +4,7 @@ Conférence : Rendons le DDD aux DEVS
 Arnaud Thiefaine : athiefaine
 Dorra Bartaguiz : iAmDorra
 Livre : Software Craft.
+Code KATA disponible sur GitHub
  
 
 PARTIE 1 : KATA
@@ -90,10 +91,30 @@ Consistance transactionnelle.
 Cas simple : Commande regroupant des lignes de commandes. 
 On sauvegarde la commande et non les lignes de commandes. 
 L'agregat est ici la commande. 
-
 Fonctionne avec le repository : On sauvegarde l'agregat et on charge l'agregat. 
+Agregat simple = un seul niveau
 
+ex : notion d'adresse : adresse de livraison / adresse de facturation. A eclater en plusieurs boundedContexts. 
+ValueObject
+-----------
+Pas d'identité
+Egalité par valeur
+immuable
+Pas d'effet de bord. 
 
+Entity
+------
+Identité
+Continuité dans le temps. 
+
+Ces deux types d'objets se retrouvent dans le domaine. 
+
+Notion de Service
+Stateless
+Injectable
+Contient de la logique Métier que l'on ne peut pas mettre dans une valueObject ou un entity. 
+Il faut se poser la question pour savoir si le code on doit le laisser dans le service ou au contraire créer des VO ou des Entity. 
+Vérifier que l'on a besoin de services dans nos applications. 
 
 
 
