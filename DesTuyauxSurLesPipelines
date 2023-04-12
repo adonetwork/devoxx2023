@@ -41,6 +41,14 @@ Trop de tests manuels
 Feedback trop long
 Déploiements manuels à partir de modes opératoires
 manque de visibilité, controle et qualité
+Besoin d'accelerer : réagir plus rapidemment aux changements fonctionnels et techniques
+Une mise en Production devient un non evenement 
 
+CI/CD
+ETape 1 : Push du code. 
+Buid / tests / deploy / end
+Stage dans le temps et les jobs sont lancés en // dans le stage.
+Merge Request = Pull Request
 
+Solution indispensable : SCM 
 
