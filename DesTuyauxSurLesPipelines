@@ -141,6 +141,23 @@ La source de vérité c'est GIT
 Appliquer des pratiques de DEV sur ces concepts Infra
 Livrer des applications mais aussi livrer des environnements complets
 
+Automatisation dans le déploiement des données
+Toute automatisation heurte le mur de la msie à jour des données dès que l'on sort de l'effet démo
+
+La gestion de la mise à jour des données est le maillon faible qui ralentira toute tentative d'automatisation. 
+Comment gérer le rollback dans le cas d'incident. 
+La restauration des données n'est pas une solution fiable. 
+
+A la livraison, on prévoit des scripts pour revenir dans l'état initial.
+On peut choisir des types de BD et une approche CQRS des applications. Cela permet de rejouer des évenements stockés. 
+
+Modèle Expand/Contract
+Introduire un changement dans la structure des données sans impact sur le code actuel. 
+Modifier ensuite le code existant pour utiliser ces nouvelles structures. 
+Période d'attente pendant laquelle les changements sont persistés en plus gde quantité.
+Et enfin, on supprime les anciennes structures. 
+
+
  
 
 
