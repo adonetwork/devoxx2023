@@ -116,11 +116,3 @@ Contient de la logique Métier que l'on ne peut pas mettre dans une valueObject 
 Il faut se poser la question pour savoir si le code on doit le laisser dans le service ou au contraire créer des VO ou des Entity. 
 Vérifier que l'on a besoin de services dans nos applications. 
 
-
-
-
-
-
-
-
-
