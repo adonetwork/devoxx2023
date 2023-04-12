@@ -84,6 +84,16 @@ un build doit être portable / isolé / maitrisé.
 Dans le build, on retrouve les TU et l'analyse du code. 
 Il faut optimiser la phase de tests. les paralléliser s'ils sont assez isolés. utiliser des mocks ou simulateurs pour accelere l'étape de testing.
 
+Taches de pipelines a exécuter dans des conteneurs
+Un bon design des images utilisés est important. 
+
+
+
+
+
+
+
+
 
 
 
