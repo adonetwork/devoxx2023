@@ -87,6 +87,18 @@ Il faut optimiser la phase de tests. les paralléliser s'ils sont assez isolés.
 Taches de pipelines a exécuter dans des conteneurs
 Un bon design des images utilisés est important. 
 
+Etape 3 : Tests Automatisés
+Les tests sont exécutés sur l'application déployée. Donc il faut déployer l'application avec de lancer les tests
+Ces tests peuvent faire appel à des dépendances tierces
+Ces tests sont plus fragiles mais ont une valeur Métier plus importante.
+Ces tests sont consommateurs de ressources.
+
+Tests de fiabilité des APIS
+Tester la consommation de l'API du point de vue client
+Permet de controler le comportement la non regression et la stabilité des versions de l'API
+Data fuzzing : Outil fournit des trames sur les API afin de tester la robustesse des APIs
+Les tests sont basés sur la couverture ou le comportement;
+
 
 
 
