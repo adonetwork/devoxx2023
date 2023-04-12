@@ -76,6 +76,14 @@ Ces objets "Spécification" modèle des règles Métiers sur les objets du domai
 Création d'une interface "Spéfification" avec une méthode à implémenter. 
 lien : https://blog.engineering.publicissapient.fr/2009/12/29/le-pattern-specification-pour-la-gestion-de-vos-regles-metier/ 
 
+Repository : gère la collection d'objets Métier : Support de stockage des objets métiers
+Gère la transaction 
+Effet de bord
+Deux facetes dans le repository : port et l'adapter. 
+Il est bien sur injectable. 
+
+
+
 
 
 
