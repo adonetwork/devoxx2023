@@ -82,6 +82,17 @@ Effet de bord
 Deux facetes dans le repository : port et l'adapter. 
 Il est bien sur injectable. 
 
+Agregat
+Grappe d'objets qui a une identité unique
+Racine de l'agrégat
+cela sert à protéger l'invariant du domaine
+Consistance transactionnelle. 
+Cas simple : Commande regroupant des lignes de commandes. 
+On sauvegarde la commande et non les lignes de commandes. 
+L'agregat est ici la commande. 
+
+Fonctionne avec le repository : On sauvegarde l'agregat et on charge l'agregat. 
+
 
 
 
