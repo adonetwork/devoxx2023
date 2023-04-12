@@ -42,6 +42,17 @@ Utiliser des personas (persona explicites mais aussi implicites)
 Notions de Synonymes (Acheter une place, prendre une place, Réserver une place, ....)
 Termes sens multiples. 
 
+PARTIE 2 
+--------
+
+Trois complexités du logiciel
+Introduction de l'architecture hexa
+Complexite essentielle : Nature du problème, contraintes liées au Métier. On a pas la main dessus
+Complexité obligatoire : Outillage technique à mettre en oeuvre pour répondre au pb. Liés aux contraintes d'exploitation (frameworks, ....)
+Complexité accidentelle : Erreurs de développement. Essentiel de la dette technique. 
+
+
+
 
 
 
