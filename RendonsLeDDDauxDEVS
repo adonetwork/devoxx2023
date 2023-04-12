@@ -3,6 +3,8 @@ Conférence : Rendons le DDD aux DEVS
 
 Arnaud Thiefaine : athiefaine
 Dorra Bartaguiz : iAmDorra
+Livre : Software Craft.
+ 
 
 PARTIE 1 : KATA
 ---------------
@@ -11,6 +13,12 @@ Pour refactoriser code LEGACY : toujours partir des tests et de la couverture de
 Prendre un extrait de code et le transformer dans un premier temps en méthode. 
 Ensuite déplacer la méthode dans une classe spécifique
 Toujours vérifier que vos tests fonctionnent toujours. 
+Conversion du code statique vers du non statique
+Au lieu d'utiliser le type primitif, on créé une classe et crééer des opérations entre ces instances d'objets. Notion de ValueOBject
+DSL : Domain Spécific Language. Meilleure compréhension du domaine. 
+L'intérêt du DSL est de rajouter des tests. 
+
+Bouquin : SecureByDesign
 
 Exemple du KATA : Transformer BigDecimal en classe Amount.
 
