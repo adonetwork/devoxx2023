@@ -17,9 +17,20 @@ Conversion du code statique vers du non statique
 Au lieu d'utiliser le type primitif, on créé une classe et crééer des opérations entre ces instances d'objets. Notion de ValueOBject
 DSL : Domain Spécific Language. Meilleure compréhension du domaine. 
 L'intérêt du DSL est de rajouter des tests. 
+L'objectif est de permettre à un non DEV de lire le code Métier.
 
 Bouquin : SecureByDesign
 
 Exemple du KATA : Transformer BigDecimal en classe Amount.
+
+Cleaning the deck : Comment supprimer tout ce qui est facile à enlever du code. 
+Par exemple supprimer les commentaires superflus
+Attention au nommage des variables, méthodes et classes
+Quand on met trop de commentaires, cela veut dire que le code n'est pas lisible.
+Vous pouvez toujours supprimer du code mais bien vérifier que le code est couvert par les tests.
+
+
+
+
 
 
