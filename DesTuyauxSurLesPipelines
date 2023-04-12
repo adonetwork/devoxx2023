@@ -51,4 +51,42 @@ Stage dans le temps et les jobs sont lancés en // dans le stage.
 Merge Request = Pull Request
 
 Solution indispensable : SCM 
+Sur les commits appliquer les conventions de nommage. 
+Utilisation des branches aura un impact sur le CI/CD. 
+Ex 
+Feature Branch = Une branche par évolution 
+Release Branch = Branche ou on merge les fonctionnalités à livrer. 
+HotFix Branch 
+
+Tagging Strategy
+Un tag est un pointeur annoté sur un commit particulier. 
+On a une branche de release et on peut annoter des tags correspondants aux différentes versions. 
+Si on doit appliquer un fix sur une version donnée, on créé une branche depuis un tag de version. 
+
+Strategie de build 
+Qu'est ce qui déclenche un build 
+Chaque commit
+Toutes les branches
+chaque merge/pull request
+un changement dans un répertoire
+un tag
+.....
+
+Déclencher le build plus tôt et le plus frequemment possible. 
+
+Git Pre-commit hook : Exemple de commits de base. 
+Sur les revues de code : Conventionnel comments (ex bravo, magic, alerte, question, warning, ...
+
+Etape 2 : Build
+le build doit pouvoir etre exécuté en local et sur un serveur de CI
+un build doit être portable / isolé / maitrisé.
+
+Dans le build, on retrouve les TU et l'analyse du code. 
+Il faut optimiser la phase de tests. les paralléliser s'ils sont assez isolés. utiliser des mocks ou simulateurs pour accelere l'étape de testing.
+
+
+
+
+
+
 
