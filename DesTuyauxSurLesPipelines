@@ -105,6 +105,19 @@ On supprime les mocks par les véritables dépendances.
 
 Load Testing
 Tests de charges, robustesse et de performances. 
+Solution Hey : solution plus simple que du JMeter / Gatling
+
+Tests de sécurité
+en plus de l'analyse du code, des scans de vulnérabilités et des tests de pénétration
+Site OWASP : liste d'outils à utiliser 
+Outils DAST à passer sur le code. 
+
+Etape 4 : Stockage des binaires
+Pour passer le résultat compilé du build entre les différentes étapes de test, déploiement dans les différents environnements. Il convient de stocker les binaires produits dans
+des dépôts. 
+Les registries de conteneurs
+Etablir un SBOM (Software Bill of Materiels) = inventaire des composants logiciels utilisés est une bonne manière de gérer le cela. 
+Il existe des outils pour scanner le code et les binaires et produire des SBOM automatiquement.
 
 
 
