@@ -64,6 +64,20 @@ Approche left/right side
 Archi hexa facilite les tests. La partie Domaine peut être tester de bout en bout. 
 Le Mock est plutôt sur la partie Infra
 
+On rapproche le comportement le plus proche des données. 
+Si methode prend un paramètre de type "objet" : fortes chances que l'on puisse la déplacer.
+
+Pattern Specification
+Invariant de domaine de type invariant
+Valide un objet du domaine avec isSatisfiedBy
+Modélise une règle de gestion
+Configurable. 
+Ces objets "Spécification" modèle des règles Métiers sur les objets du domaine. 
+Création d'une interface "Spéfification" avec une méthode à implémenter. 
+lien : https://blog.engineering.publicissapient.fr/2009/12/29/le-pattern-specification-pour-la-gestion-de-vos-regles-metier/ 
+
+
+
 
 
 
