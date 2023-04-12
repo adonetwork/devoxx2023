@@ -119,6 +119,18 @@ Les registries de conteneurs
 Etablir un SBOM (Software Bill of Materiels) = inventaire des composants logiciels utilisés est une bonne manière de gérer le cela. 
 Il existe des outils pour scanner le code et les binaires et produire des SBOM automatiquement.
 
+Etape 5 : Déploiement
+Creations d'environnement fonctionnels sur base de livrables. 
+Il y a aussi tous les déploiements intermédiaires 
+Un déploiement est une étape protéiforme qui peut comprendre l'automatisation du déploiement d'un réseau, composants d'infrastructure, ....
+
+L'objectif cible d'un pipeline est :
+de livrer des compposants prêts à la mise en production 
+de mettre directement les composants en production
+
+L'approche "Guichet / ticket" est un frein dans fluidité d'une CI/CD.
+Dans le déploiement, la tendance est de déployer des composants discrets et legers et démarrant assez vite. 
+
 
 
 
