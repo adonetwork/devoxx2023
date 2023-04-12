@@ -1,9 +1,17 @@
 DEVOXX France 2023
 Conférence : Rendons le DDD aux DEVS
 
+Arnaud Thiefaine : athiefaine
+Dorra Bartaguiz : iAmDorra
+
 PARTIE 1 : KATA
+---------------
 
 Pour refactoriser code LEGACY : toujours partir des tests et de la couverture de tests
 Prendre un extrait de code et le transformer dans un premier temps en méthode. 
 Ensuite déplacer la méthode dans une classe spécifique
 Toujours vérifier que vos tests fonctionnent toujours. 
+
+Exemple du KATA : Transformer BigDecimal en classe Amount.
+
+
