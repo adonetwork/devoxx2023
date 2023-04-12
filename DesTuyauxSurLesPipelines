@@ -1,2 +1,46 @@
 DEVOXX 2023
 Des Tuyaux sur les pipelines.
+
+Philippe Charriere
+Pierre Antoine Gregoire.
+
+Origines des pipelines CI/CD
+Influence : Pratiques Agiles, TU,
+Rythmes elevés dans le processus de livraison sur des périmètres restreints
+Intégration Continue
+On est plus en Waterfall et cela accelère le rythme de livraison et derrière la qualité des livraisons.
+
+Fin année 90 / 2000 : Internet et Cloud
+Emergence de la virtualisation
+Matériel plus léger. 
+Mise à l'échelle : Augmentation de machines / Augmentation des capacités des machines (RAM, CPU)
+
+Au final l'infra est plus dynamique. 
+
+Arrivée de DEVOPS (2007 / 2008)
+Fait le lien entre les pratiques agiles et l'infra moderne
+CALMS : Culture, Automatisation, Lean, Mesures, Sharing(Partage)
+
+Continuous Integration (CI)
+L'integration continue est une pratique de developpement logiciel ou les membres de l'équipe intégrent frequemment leurs travaux. Chaque changement déclenche la construction d'un livrable pret pour la production
+La validation du livrable est faite au plus tot
+Le déploiement de l'infra est testé en amont et préparé pour la livraison
+Mais le déploiement en Production est toujours sujet à validation humaine. 
+
+Continuous Deployment (CD)
+Livraison continue ++ 
+Cela nécessite un haut niveau d'automatisation. 
+Etre capable aussi de revenir en arriere si problème.
+
+Les pipelines = recettes de cuisine
+Assemblage d'étapes de construction, validation, d'installation, déploiement, corrections, ....
+Avoir des flux logiques automatisés avec des résultats prédictibles.
+
+Pourquoi les pipelines
+Trop de tests manuels
+Feedback trop long
+Déploiements manuels à partir de modes opératoires
+manque de visibilité, controle et qualité
+
+
+
