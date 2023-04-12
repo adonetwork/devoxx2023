@@ -131,7 +131,17 @@ de mettre directement les composants en production
 L'approche "Guichet / ticket" est un frein dans fluidité d'une CI/CD.
 Dans le déploiement, la tendance est de déployer des composants discrets et legers et démarrant assez vite. 
 
+Tutorial Gitlab : https://xavki.blog/gitlab-tutorials-et-formation/
 
+Gitops
+------
+Approche différente en flux tirés. C'est Git qui est la source de vérité pour ce qui doit être déployé en Production. 
+Concept de PULL
+La source de vérité c'est GIT
+Appliquer des pratiques de DEV sur ces concepts Infra
+Livrer des applications mais aussi livrer des environnements complets
+
+ 
 
 
 
