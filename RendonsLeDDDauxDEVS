@@ -33,7 +33,14 @@ Rapprocher le code XML dans la classe toujours en exécutant les tests.
 Pattern Sandwich 
 Morceaux de codes Métier(ingredients) avec de la technique (Pain). Au centre nous allons mettre le Métier au centre avec de la technique autour. 
 
+Petites modifications : ne pas oublier de faire des commits intermédiaires
+Loi Demeter : ne pas parlez aux étrangers (eviter de faire des appels, d'appels ....) : Encapsuler dans un objet.
 
+Techniques pour identifier des domaines Métiers : BoundedContext (Atelier EventStorming)
+Mots: "tions" ou "ing" : nous sommes dans un BoundedContext.
+Utiliser des personas (persona explicites mais aussi implicites)
+Notions de Synonymes (Acheter une place, prendre une place, Réserver une place, ....)
+Termes sens multiples. 
 
 
 
