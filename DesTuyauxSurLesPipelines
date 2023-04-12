@@ -157,6 +157,12 @@ Modifier ensuite le code existant pour utiliser ces nouvelles structures.
 Période d'attente pendant laquelle les changements sont persistés en plus gde quantité.
 Et enfin, on supprime les anciennes structures. 
 
+Tests Sécurité
+--------------
+Gestion de sécurité est transverse et un aspect important dans une approche DevOps
+L'analyse du code est à faire lors de l'étape de Build
+L'analyse dynamique (DAST) est applicable à la phase de TEST et DEPLOIEMENT
+
 
  
 
