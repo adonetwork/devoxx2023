@@ -51,6 +51,20 @@ Complexite essentielle : Nature du problème, contraintes liées au Métier. On 
 Complexité obligatoire : Outillage technique à mettre en oeuvre pour répondre au pb. Liés aux contraintes d'exploitation (frameworks, ....)
 Complexité accidentelle : Erreurs de développement. Essentiel de la dette technique. 
 
+Complexite essentielle : Incompréssible. 
+Complexité obligatoire : Compressible. Pas obliger d'utiliser la dernière version du FW. 
+Complexité accidentelle : Suppressible. La troisième peut être réduite
+
+Les deux premières sont souvent croisées donc sans les réduire, on peut les simplifier. 
+L'archi Hexa permet d'isoler le Métier de la technique. 
+Alister Cocburn
+Le code le plus précieux est celui se trouvant dans le domaine. Cette partie évolue moins vite que la technique. 
+Archi Hexa : notions de ports/adapters
+Approche left/right side
+Archi hexa facilite les tests. La partie Domaine peut être tester de bout en bout. 
+Le Mock est plutôt sur la partie Infra
+
+
 
 
 
