@@ -34,3 +34,37 @@ cache-control
  
  Autre paramètre ; no-store. Là dans ce cas là il n'y a pas de cache. 
  
+ Autre paramétre : must-revalidate. 
+ a utiliser avec max-age
+ Revalide si c'est périmé
+ 
+ Autre paramètre (avec CSS)
+ immutable
+ Pas de revalidation en cas de rechargement. 
+ Cela fonctionne avec SAFARI
+ Cela recharge que la page HTML et pas les ressources
+ Immutable ne fonctionne pas. Car c'est le comportement par défaut de Chrome. 
+ Firefox fonctionne à l'identique de Chrome.
+ 
+ On ajoute une empreinte dans le nom du fichier. Le fichier est toujours différent.
+ 
+ Deux entêtes obsolètes pragma-no-cache. 
+ 
+ Le cache du navigateur est un cache privé. Le cache partagé on le retrouve sur les serveurs 
+ Reverse Proxy, 
+ CDN 
+ La réponse va être stockée dans les différentes couches de cache.
+ 
+ Cas des applications connectés (SessionId)
+ Directive "private" permet de ne pas les stocker dans le cache partagé. 
+ Si il y a une directive "authorization", on ne retrouve la réponse que dans les caches privés.
+ 
+ prefixe "s" (ex s-maxage). On ne stocke la réponse que dans les caches partagés. 
+ Directives maintenant pour identifier les caches partagés. 
+ 
+ Concept "vary"
+ Même appel sur plusieurs navigateurs le contenu peut être différent si langues différentes : négociation de contenus
+ 
+ 
+ 
+ 
