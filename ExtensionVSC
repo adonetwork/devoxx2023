@@ -36,6 +36,7 @@ Chaque vue est une webview
 création d'une classe qui implémente une classe WebviewViewProvider
 Il faut aussi créer une nouvelle dans le point de contribution.
 
+code.visualstudio.com
 
 
 
