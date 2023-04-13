@@ -3,3 +3,34 @@ Le cache HTTP
 
 Hubert Sablonnière (Clever Cloud)
 
+Mai 1996 ; Publication RFC 1945
+Concepts de base du cache HTTP
+Client fait un appel, réponse du serveur et au retour la réponse est en cache. Si même demande, on utilise le cache. 
+Avantages :
+Réduction du temps de chargement. 
+Réduire la charge
+Meilleures perfs.
+
+Cache c'est un peu compliqué. 
+Histoire d'entête. 
+Important : cache-control
+Histoire de sources. 
+Pb Front et Back End
+
+Dans la réponse, il dépose un entête HTTP
+cache-control 
+  Paramètres : max-age= (en secondes). Délai pris après la génération de la réponse
+  Quand c'est périmé, Firefox : page about cache. Même si c'est périmé le navigateur le conserve jusqu'à une revalidation du contenu avec le serveur. 
+  
+ Requêtes conditionnelles
+ notion etag : empreinte numérique. Avec le tag, le serveur renvoi une réponse. 
+ Autre facon : last-modified. 
+ Cela donne la date de modification et non une empreinte numérique. 
+ Il existe un cache heuristique. on détermine une date de préemption 
+ 
+ Plutot forcer la revalidation : paramètre : no-cache. Cela ne veut pas dire pas de cache. Tu as le droit de cacher mais tu est dans l'obligation 
+ de revalider.
+ Comportement similaire au etag
+ 
+ Autre paramètre ; no-store. Là dans ce cas là il n'y a pas de cache. 
+ 
