@@ -60,6 +60,15 @@ partager des objets dans le code exécuté dans des threads
 Remplace ThreadLocal
 durée de vie limitée
 
+Autres évolutions
+Double.toStrng et Float.toString plus restrictifs
+Nouvelles fabriques pour des objets HashSet et HashMap (en indiquant la taille)
+Java 20 compile du Java 8 à 20
+Améliorations JShell
+Recherche améliorée sur Javadoc
+
+Pouvoir accéder aux certificats de la machine locale sous Windows
+
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
