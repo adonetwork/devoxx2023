@@ -23,10 +23,37 @@ git hash-object -w : calcule hash et sauvegarde
 
 dans le sous répertoire "objects" : création d'un fichier et le nom du fichier est le hash de l'objet
 git cat-file -t : type
-git cat_file permet de voir le contenu de l'objet
+git cat_file -p permet de voir le contenu de l'objet
 
 Suivi de contenu
 ----------------
+git status : contenu du GIT
+historique : git-log
+
+Versionning
+-----------
+Dans le commit, on a le parent qui fait référence au commit initial
+Tag annonté pointe sur un commit
+git count-object donne le nombre d'objet dans le repo
+
+Notion de Branches
+------------------
+git branch
+.git/refs/heads/main = nom de la branche. 
+
+Une branche main est uniquement une référence à un commit spécifique
+branche courant : "*" sur la branche en question
+
+fichier : .git/HEAD pointeur vers la branche courante. 
+changer de branche : git switch
+modification du fichier HEAD : la branche courante a changé. 
+
+Merging de deux branches
+git merge nom de la branche
+
+Trois notions : Commit , tree, objects
+
+
 
 
 
