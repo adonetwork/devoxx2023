@@ -27,6 +27,13 @@ mettre en oeuvre des options : vscode.window.showQuickPick
 Création de vues
 Création d'une classe avec import de la librairie "vscode"
 Rajouter un point de contribution : views
+vscode.windows.createview dans la vue "explorer"
+
+Création d'une view (barre de tâches)
+point de contribution "viewscontainers" , activitybar
+Il faut un icone par défaut
+
+
 
 
 
