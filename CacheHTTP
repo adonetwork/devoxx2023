@@ -80,6 +80,9 @@ cache-control
  ServiceWorker : intercepte les appels entre le navigateur et le réseau (utilise un cache également)
  Plusieurs caches sont communs au navigateur (Concept onglet)
  
+ BF Cache : Navigation Précédent / Suivant
+ Tout est restauré ; valeurs, focus, scrolling
+ 
  
  
  
