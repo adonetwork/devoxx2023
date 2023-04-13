@@ -32,6 +32,14 @@ vscode.windows.createview dans la vue "explorer"
 Création d'une view (barre de tâches)
 point de contribution "viewscontainers" , activitybar
 Il faut un icone par défaut
+Chaque vue est une webview
+création d'une classe qui implémente une classe WebviewViewProvider
+Il faut aussi créer une nouvelle dans le point de contribution.
+
+
+
+
+
 
 
 
