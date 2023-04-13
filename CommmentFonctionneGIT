@@ -60,6 +60,44 @@ Branche courante suit les nouveaux commits
 Quand on se déplace version git met à jour le repo de travail
 GIT passe un ramasse miette pour supprimer les commits qui ne sont plus accessibles. 
 
+Merge : on voit tous les commits
+Rebase : c'est linéaire mais l'histo est faux puisque les commits qui ne sont plus accessibles sont supprimés par le ramasse miette
+
+les tags sont dans le répertoire ./git/refs/tags
+tag annoté : tag avec un libellé
+Un tag est une branche qui ne bouge pas . 
+
+Gestion de version distribué
+----------------------------
+Depot distant :
+Récupération d'un dépot distant : git clone
+on récupère la branche courante
+
+Git compresse les objets pour des besoins de place : fichiers pack
+
+fichier config : ./git/config
+git branch -all : liste toutes les branches meme celles distantes.
+
+dépots distants : ./git/refs/remotes
+
+une branche distance c'est juste une référence sur une commit
+
+git show-ref branche : contenu de la branche
+
+git push : synchronisation local / distant
+
+Attention : git push -f
+On déplace le pb 
+
+Il faut faire un merge avec le distant (fetch) avant de faire un push
+
+Rebase uniquement des branches qui sont en local mais pas avec des commits distants
+
+
+
+
+
+
 
 
 
