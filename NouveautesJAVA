@@ -1,0 +1,26 @@
+DEVOXX 2023
+Les nouveautés JAVA 19 / 20
+
+JM Doudoux
+Evolutions sur un rythme de tous les 6 mois
+Java 19 : Sept 2022
+Java 20 : Mars 2023
+
+7 JEPs sur trois projets (Amber, Panama, Loom) 
+
+Projet AMBER
+Record Patterns
+Le record pattern permet de déconstruire les valeurs d'un record
+Avec 19, record utilisé avec instanceof et switch
+Avec 20 : on rajoute le for
+
+si elt est null PatternMatchException
+le nom des composants peut être différent
+les records pattern peuvent être impliqués
+
+Support de la valeur null dans les switchs avec les records pattern
+nouveau mot clé "when" qui remplace un "&&" dans une condition de switch
+
+Projet PANAMA
+Foreign Function and Memory API
+Accéder à du code natif. 
