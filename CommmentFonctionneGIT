@@ -1,0 +1,33 @@
+DEVOXX 2023
+
+Savez Vous vraiement comment fonctionne GIT ?
+Sebastien Lecacheur
+Société ODIGO 
+
+Commandes porcelain (Commandes de base)
+Il y a aussi des commandes de bas niveau
+
+GIT : Serveur central décentralisé de gestionnaire de version
+
+La dernière couche de GIT c'est une MAP de persistance
+
+Dans GIT, tout est objet (Sequence de bytes + hash)
+git hash-object : encode "hash" d'un objet (String par ex)
+
+Chaque objet possède un hash et il est unique (SHA-1)
+
+Comment stocke t'il les données ?
+Dans le rep GIT
+
+git hash-object -w : calcule hash et sauvegarde
+
+dans le sous répertoire "objects" : création d'un fichier et le nom du fichier est le hash de l'objet
+git cat-file -t : type
+git cat_file permet de voir le contenu de l'objet
+
+Suivi de contenu
+----------------
+
+
+
+
