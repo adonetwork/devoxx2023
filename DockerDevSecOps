@@ -2,4 +2,26 @@ DEVOXX 2023
 
 Docker au service du DevSecOps
 Carmen Piciorus (La Poste)
+Expert Sécurité
+
+Déployer les applications dans le cloud de manière sécurisée.
+
+La peur du développeur
+----------------------
+plusieurs fw, plusieurs solutions. Comment assurer la compatibilité du poste quand on change. 
+Solution définir un catalogue d'images docker pour les DEV (afin de disposer des packages nécessaires)
+Création des images
+Détection des vulnérabilités (Solution anchore)
+Création d'un catalogue privé (style dockerhub)
+Scan automatique des images via anchore)
+Les images sont poussées sur OpenShift / Nexus
+Travail sur la taille des images
+On met uniquement les composants nécessaires pour limiter la taille des images
+Comment écrire le dockerfile via la notion de layer en mettant l'applicatif sur la dernière couche (afin de pouvoir utiliser le cache)
+Build multistage permet de réduire la taille de l'image docker
+Le DEV fait du docker compose afin de démarrer tous les composants nécessaires pour travailler (BD, Réseau, ....)
+Utilisation du buildpacks qui permet de transformer le code en image Docker. 
+Détecte le code et créer l'image nécessaire pour faire tourner l'application.
+
+
 
